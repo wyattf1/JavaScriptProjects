@@ -112,7 +112,6 @@ var watchList = [
   }
 ];
 
-// Only change code below this line
 var filteredList = watchList
   .map(movie => {
     return {
@@ -125,7 +124,5 @@ var filteredList = watchList
     // return false it will reject the item
     return parseFloat(movie.rating) >= 8.0;
   });
-
-// Only change code above this line
 
 console.log(filteredList);
