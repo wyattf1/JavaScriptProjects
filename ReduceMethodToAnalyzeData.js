@@ -113,7 +113,6 @@ var watchList = [
 ];
 
 function getRating(watchList){
-  // Only change code below this line
   var averageRating =
   watchList
     // Use filter to find films directed by Christopher Nolan
@@ -125,7 +124,6 @@ function getRating(watchList){
   // Divide by the number of Nolan films to get the average rating
   watchList.filter(film => film.Director === "Christopher Nolan").length;
 
-  // Only change code above this line
   return averageRating;
 }
 console.log(getRating(watchList));
